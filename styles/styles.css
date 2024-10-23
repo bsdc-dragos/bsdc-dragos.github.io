@@ -6,6 +6,27 @@ body{
     background-attachment: fixed;
 }
 
-https://cdn.sportscardigest.com/wp-content/uploads/20211108044516/BMW-E60-M5-Front-View.jpg
-
-https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/bmw-m5-e60-front-2.jpg
+.logobmw{
+    width: 170px;
+    text-align: right;
+}
+.logobmw:hover{
+    transform: scale(1.25);
+}
+.button{
+    text-align: right;
+    margin-top: -90px;
+    margin-right: 170px;
+}
+.logom{
+    width: 400px;
+    margin-top: -50px;
+}
+.button2{
+    text-align: right;
+    margin-top: -215px;
+    margin-right: 30px;
+}
+.logom:hover{
+    transform: scale(1.2);
+}
