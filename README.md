@@ -1,2 +1,2 @@
 # bsdc-dragos.github.io
-Bimmer life on top bro
+Bimmer life on top
