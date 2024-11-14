@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html, body {
+    height: 100%;
+}
+ 
+.content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.middlebox {
+    justify-content: space-between;
+    width: 300px;
+    height: 400px;
+    background-color: orange;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 10px 10px 50px;
+    transition: 0.2s box-shadow;
+}
+.middlebox:hover {
+    box-shadow: 30px 30px 80px;
+    cursor: pointer;
+}
+ 
+.bob {
+    width: 200px;
+    height: 350px;
+    margin-left: 40px;
+}
