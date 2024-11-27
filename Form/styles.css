@@ -1,0 +1,40 @@
+* {
+    margin: 50;
+    padding: 50;
+    font-family: "Itim", serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: grey;
+}
+/* start of everything */
+ 
+.formular {
+    background-color: rgb(13, 13, 139);
+    width: 450px;
+    border-radius: 30px;
+    margin: translateY(50px);
+    padding: 40px;
+}
+ 
+ 
+th {
+    padding: 20px;
+    font-size: 30px;
+    border: 5px rgb(10, 44, 238) solid;
+}
+ 
+tr {
+    border: 5px rgb(10, 44, 238) solid;
+    text-align: center;
+}
+ 
+.thingy {
+    margin-top: 50px;
+}
