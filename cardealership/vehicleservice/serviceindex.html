@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealership - Service Your Vehicle</title>
+    <link rel="stylesheet" href="servicestyles.css">
+</head>
+<body>
+    <!-- Main Content -->
+    <main>
+        <section class="service-section">
+            <h2>Service Your Vehicle</h2>
+            <form id="service-form">
+                <label for="reg-plate">Registration Plate:</label>
+                <input type="text" id="reg-plate" name="reg-plate" required maxlength="10" oninput="this.value = this.value.toUpperCase();" placeholder="Enter your reg plate">
+
+                <label for="car-make">Car Make:</label>
+                <input type="text" id="car-make" name="car-make" required placeholder="Enter car make">
+
+                <label for="car-model">Car Model:</label>
+                <input type="text" id="car-model" name="car-model" required placeholder="Enter car model">
+
+                <label for="car-color">Car Colour:</label>
+                <input type="text" id="car-color" name="car-color" required placeholder="Enter car colour">
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="confirmation-message" style="display:none;">
+                <p>Your vehicle details have been submitted successfully!</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
