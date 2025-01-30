@@ -3,84 +3,84 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
+
 html, body {
     width: 100%;
     height: 100%;
     text-align: center;
 }
+
 body {
     background-image: url("https://cdn.motor1.com/images/mgl/MkOw3X/s3/evolucion-gama-bmw-m5-portada.webp");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
+
 h1 {
     color: white;
 }
 
 #survey-form {
     width: 400px;
-    height: 600px;
-    margin: auto;
     padding: 23px;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
+    margin: auto;
+    text-align: left;
 }
 
 p {
-    color: rgb(255, 255, 255);
     font-size: 20px;
-}
-.name {
-    width: 400px;
-    margin: auto;
-    font-size: 30px;
-}
-.name label {
-    float: left;
-}
-.name input {
-    width: 300px;
-    height: 30px;
-    border-radius: 6px;
+    color: rgb(255, 255, 255);
 }
 
-.email {
-    width: 400px;
-    margin: auto;
-    font-size: 30px;
+.name, .email, .age, .brand {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px;
 }
-.email label {
-    float: left;
-}
-.email input {
-    width: 300px;
-    height: 30px;
+
+input[type="text"], input[type="email"], input[type="number"], input[type="radio"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
     border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
-.age {
-    width: 400px;
-    margin: auto;
-    font-size: 30px;
+
+input[type="radio"] {
+    width: auto; 
+    margin-right: 5px; 
 }
-.age label {
-    float: left;
+
+label {
+    display: inline-block;
+    margin-bottom: 5px; 
+    font-size: 18px;
+    text-align: left;
 }
-.age input {
-    width: 300px;
-    height: 30px;
-    border-radius: 6px;
+
+select {
+    width: 100%;
 }
-.brand {
-    width: 400px;
-    margin: auto;
-    font-size: 30px;
+
+.radio-group {
+    margin-top: 10px; 
 }
-.brand label {
-    float: left;
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 15px; 
+    font-size: 18px;
 }
-.brand input {
-    width: 300px;
-    height: 30px;
-    border-radius: 6px;
+
+.radio-group input[type="radio"] {
+    margin-right: 5px; 
+}
+
+.favcolor select {
+    width: 100%;
 }
