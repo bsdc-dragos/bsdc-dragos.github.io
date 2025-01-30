@@ -34,53 +34,53 @@ p {
 .name {
     width: 400px;
     margin: auto;
-    font-size: 20px;
+    font-size: 30px;
 }
 .name label {
     float: left;
 }
 .name input {
     width: 300px;
-    height: 25px;
+    height: 30px;
     border-radius: 6px;
 }
 
 .email {
     width: 400px;
     margin: auto;
-    font-size: 20px;
+    font-size: 30px;
 }
 .email label {
     float: left;
 }
 .email input {
     width: 300px;
-    height: 25px;
+    height: 30px;
     border-radius: 6px;
 }
 .age {
     width: 400px;
     margin: auto;
-    font-size: 20px;
+    font-size: 30px;
 }
 .age label {
     float: left;
 }
 .age input {
     width: 300px;
-    height: 25px;
+    height: 30px;
     border-radius: 6px;
 }
 .brand {
     width: 400px;
     margin: auto;
-    font-size: 20px;
+    font-size: 30px;
 }
 .brand label {
     float: left;
 }
 .brand input {
     width: 300px;
-    height: 25px;
+    height: 30px;
     border-radius: 6px;
 }
