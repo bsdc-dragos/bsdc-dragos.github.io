@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/006/020/990/large/mattias-orasson-hoonicorn-final1.jpg?1495476498");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
