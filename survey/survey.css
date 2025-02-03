@@ -84,3 +84,9 @@ select {
 .favcolor select {
     width: 100%;
 }
+
+.submit {
+    margin: auto;
+    display: flex;
+    border-radius: 7px;
+}

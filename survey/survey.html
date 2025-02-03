@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1 id="title">Favourite car barnd</h1>
-    <p id="description"><em>Thank you for your time to complete this survey.</em></p>
+    <p id="description"><em>Thank you for your time to complete this survey</em></p>
     <form id="survey-form">
         <div class="name">
         <label for="name" id="name-label">Name</label>
@@ -29,7 +29,7 @@
         <div class="brand">
             <label for="brand">Favourite car brand</label>
             <br>
-            <input type="text" name="Favourite car brand" id="brand" placeholder="E.g. BMW, Mercedes, Aston Martin.">
+            <input type="text" name="Favourite car brand" id="brand" placeholder="E.g. BMW, Nissan, Aston Martin.">
         </div>
         <div class="favcolour">
             <label for="favcolour" id="list">Favourite Colour</label>
@@ -45,23 +45,48 @@
                 <option value="grey">Grey</option>
                 <option value="black">Black</option>
               </select>
+        </div><br>
+
+        <p>Do you consider yourself a car person?</p>
+        <div class="radiobut">
+            <input type="radio" name="option1" value="option1a"> <label>Yes</label><br>
+            <input type="radio" name="option2" value="option1b"><label>No</label><br>
         </div>
-        <p>Choose an option from the first set:</p>
-        <label>
-            <input type="radio" name="option1" value="option1a"> Yes
-        </label><br>
-        <label>
-            <input type="radio" name="option1" value="option1b"> No
-        </label><br>
+            
 
-        <p>Choose an option from the second set:</p>
-        <label>
-            <input type="radio" name="option2" value="option2a"> Yes
-        </label><br>
-        <label>
-            <input type="radio" name="option2" value="option2b"> No
-        </label>
+        <p>Do you consider yourself a car nerd?</p>
+        <div class="radiobut">
+            <input type="radio" name="option1" value="option1a"> <label>Yes</label><br>
+            <input type="radio" name="option2" value="option1b"><label>No</label><br>
+        </div>
+        
+        <div>
+            <p>Tick if you own any of these:</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">
+        <label for="vehicle1">Bike</label>
+        <br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="motorbikebike">
+        <label for="vehicle1">MotorBike</label>
+        <br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="car">
+        <label for="vehicle1">Car</label>
+        <br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="lorry">
+        <label for="vehicle1">Lorry</label>
+        <br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="plane">
+        <label for="vehicle1">Plane</label>
+        </div>
+        
+        <div class="comments">
+            <label for="comments" id="comments-label">Any omments or suggestions?</label>
+            <br>
+            <textarea placeholder="Enter your comment here...">  </textarea>
+            </div><br>
 
+        <div class="salut">
+            <button type="submit" value="Submit" class="submit" id="submit">Submit</button>
+        </div>
     </form>
 
 </body>
