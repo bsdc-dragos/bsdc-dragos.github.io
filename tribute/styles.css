@@ -6,7 +6,7 @@
 
 html, body {
     width: 100%;
-    height: 100%;
+    height: 107.7%;
     text-align: center;
 }
 
@@ -16,4 +16,8 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
+}
+ul {
+    width: 200px;
+    margin: auto;
 }
