@@ -18,6 +18,10 @@ body {
     color: white;
 }
 ul {
-    width: 200px;
+    width: 950px;
     margin: auto;
+    font-size: 30px;
+}
+li {
+    list-style-type: none;
 }
