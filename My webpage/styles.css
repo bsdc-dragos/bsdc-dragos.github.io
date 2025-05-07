@@ -1,11 +1,14 @@
 body{
-    font-family:fantasy;
+    font-family: fantasy;
     background-image: url("https://cdn.sportscardigest.com/wp-content/uploads/20211108044516/BMW-E60-M5-Front-View.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
 }
-
+.p{
+    font-size: 40px;
+}
 .logobmw{
     width: 170px;
     text-align: right;
