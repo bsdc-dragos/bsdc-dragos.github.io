@@ -28,3 +28,19 @@ body{
     padding-right: 20px;
     padding-top: 20px;
 }
+
+.blue-box{
+    background-color: rgba(126, 157, 204, 0.6);
+    padding: 40px;
+    border-radius: 12px;
+    border-color: #000;
+    border-width: 1px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #000;
+    width: 750px;
+    height: 670px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
