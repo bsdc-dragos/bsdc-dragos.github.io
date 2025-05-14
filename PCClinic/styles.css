@@ -30,17 +30,34 @@ body{
 }
 
 .blue-box{
-    background-color: rgba(126, 157, 204, 0.6);
+    background-color: rgba(114, 136, 170, 0.6);
     padding: 40px;
     border-radius: 12px;
-    border-color: #000;
-    border-width: 1px;
+    border: 1px solid #000;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    color: #000;
     width: 750px;
     height: 670px;
     align-items: center;
     margin: auto;
     display: flex;
     margin-top: 50px;
+}
+
+.blue-box a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #003366;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+.blue-box a p {
+    margin:auto;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
 }
