@@ -64,6 +64,10 @@ body{
 }
 
         /*  MENU    */
+
+ul{
+    list-style: none;
+}
 .menu {
   position: fixed;
   top: 85px;
