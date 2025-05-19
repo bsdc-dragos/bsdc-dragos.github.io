@@ -22,6 +22,11 @@ body{
 
 }
 
+.img-left {
+    z-index: 999;
+    position: relative;
+}
+
 .img-right{
     float: right;
     display: flex;
@@ -63,7 +68,7 @@ body{
     margin-bottom: 20px;
 }
 
-        /*  MENU    */
+    /*  MENU    */
 
 ul{
     list-style: none;
@@ -72,10 +77,10 @@ ul{
   position: fixed;
   top: 85px;
   right: 0;
-  width: 40vw;
-  height: calc(100vh - 100px);
+  width: 100%;
+  height: fit-content;
   background-color: #003366;
-  z-index: 999;
+  z-index: 990;
   
   display: none;
   flex-direction: column;
@@ -95,7 +100,12 @@ ul{
 .menu li a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 25px;
+}
+
+.menu li{
+    text-align: center;
+    align-items: center;
 }
 
 .menu li a:hover {
