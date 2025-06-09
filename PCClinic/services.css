@@ -6,7 +6,7 @@
 
 body{
     font-family:fantasy;
-    background-image: url("/PCClinic/images/landing-img.png");
+    background-color: CDCDCD;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -34,38 +34,13 @@ body{
     padding-top: 20px;
 }
 
-.blue-box {
-    background-color: rgba(114, 136, 170, 0.6);
-    border-radius: 12px;
-    border: 1px solid #000;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 60%;
-    height: 50%;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+h3 {
+    text-align: center;
     align-items: center;
-}
-
-.logo {
-    width: 70%;
-    height: auto;
-    margin-top: 20px;
-}
-
-.blue-box a {
-    font-size: 24px;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #003366;
-    width: 200px;
-    height: 40px;
-    border-radius: 15px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    width: fit-content;
+    margin: auto;
+    font-size: 44px;
 }
 
     /*  MENU    */
