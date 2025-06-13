@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: fantasy;
+  background-color: #CDCDCD;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+.navbar {
+  width: 100%;
+  background-color: #003366;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 100px;
+}
+.img-left {
+  z-index: 999;
+  position: relative;
+}
+.img-right {
+  float: right;
+  display: flex;
+  padding: 20px 20px 0 0;
+}
+/* MENU */
+ul {
+  list-style: none;
+}
+.menu {
+  position: fixed;
+  top: 85px;
+  right: 0;
+  width: 100%;
+  background-color: #003366;
+  z-index: 990;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow-y: auto;
+}
+.menu.show {
+  display: flex;
+}
+.menu li {
+  text-align: center;
+  align-items: center;
+}
+.menu li a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: darkgray;
+  border-radius: 15px;
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+}
+.menu li a:hover {
+  text-decoration: underline;
+}
+/* PAGE TITLE */
+.page-title {
+  font-family: 'Kavoon', serif;
+  font-size: 48px;
+  text-align: center;
+  margin: 40px 0 30px;
+  color: #003366;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+/* CONTENT CONTAINER */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px 40px;
+}
+.contact-section {
+  margin-bottom: 25px;
+}
+.contact-section h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+.contact-section ul {
+  margin-left: 20px;
+}
+.contact-section li {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 3px;
+}
+.address-line {
+  margin-left: 20px;
+}
+/* MAP CONTAINER */
+.map-container {
+  margin-top: 30px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.map-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 36px;
+    margin: 20px 0 25px;
+  }
+  .container {
+    padding: 0 20px 40px;
+  }
+  .contact-section h3 {
+    font-size: 15px;
+  }
+  .contact-section li {
+    font-size: 15px;
+  }
+  .map-image {
+    max-height: 250px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 28px;
+  }
+  .container {
+    padding: 0 15px 30px;
+  }
+  .contact-section h3 {
+    font-size: 14px;
+  }
+  .contact-section li {
+    font-size: 14px;
+  }
+  .map-image {
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
+/* Dark Theme Styles */
+.dark-theme {
+    background-color: #2c2c2c !important;
+    color: #ffffff !important;
+}
+
+.dark-theme .page-title {
+    color: #ffffff !important;
+}
+
+.dark-theme .content-text {
+    color: #e0e0e0 !important;
+}
+
+.dark-theme .contact-section h3 {
+    color: #ffffff !important;
+}
+
+.dark-theme .contact-section li {
+    color: #e0e0e0 !important;
+}
+
+/* Form styles for dark theme */
+.dark-theme .booking-form {
+    background: rgba(70, 90, 120, 0.9) !important;
+    color: #ffffff !important;
+}
+
+.dark-theme .form-label {
+    color: #ffffff !important;
+}
+
+.dark-theme .form-input,
+.dark-theme .form-select,
+.dark-theme .form-textarea {
+    background-color: #404040 !important;
+    color: #ffffff !important;
+    border: 1px solid #555 !important;
+}
+
+.dark-theme .form-input::placeholder,
+.dark-theme .form-textarea::placeholder {
+    color: #cccccc !important;
+}
+
+.dark-theme .form-input:focus,
+.dark-theme .form-select:focus,
+.dark-theme .form-textarea:focus {
+    box-shadow: 0 0 0 2px #4a90e2 !important;
+}
+
+.dark-theme .submit-btn {
+    background-color: #4a90e2 !important;
+}
+
+.dark-theme .submit-btn:hover {
+    background-color: #357abd !important;
+}
+
+/* Navbar stays the same in both themes */
+.dark-theme .navbar {
+    background-color: #003366 !important;
+}
+
+/* Map container for dark theme */
+.dark-theme .map-container {
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1) !important;
+}
