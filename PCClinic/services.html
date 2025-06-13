@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Services - PC Clinic</title>
     <link rel="stylesheet" href="services.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,79 +11,58 @@
   <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar">
-    <a href="landing.html"><img src="/PCClinic/images/small-logo.png" class="img-left"></a>
-    <img src="/PCClinic/images/menu.png" class="img-right" onclick="toggleMenu()">
-  
-    <ul class="menu" id="nav-menu">
-      <li><a href="/PCClinic/landing.html">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/services.html">Services</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-      <li class="theme-toggle">
-        <img src="/PCClinic/images/moon.png" id="theme-icon" alt="Theme Icon">
-      </li>
-    </ul>
-  </nav>
+<nav class="navbar">
+  <a href="landing.html">
+    <img src="/PCClinic/images/small-logo.png" class="img-left">
+  </a>
+  <img src="/PCClinic/images/menu.png" class="img-right" onclick="toggleMenu()">
+
+  <ul class="menu" id="nav-menu">
+    <li><a href="/PCClinic/landing.html">Home</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/services.html">Services</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+    <li class="theme-toggle">
+      <img src="/PCClinic/images/moon.png" id="theme-icon" alt="Theme Icon">
+    </li>
+  </ul>
+</nav>
 
 <div class="container">
   <h3 class="kavoon-regular">Our Services</h3>
-  
+
   <div class="services-grid">
-      <div class="service-card" onclick="selectService('repair')">
-          <div class="service-image" data-service="Repair">🔧</div>
-          <div class="service-content">
-              <h3 class="service-title">Computer Repair</h3>
-              <p class="service-description">Expert diagnosis and repair of desktop and laptop computers. Hardware replacements, component upgrades, and system restoration.</p>
-              <button class="service-button">Learn More</button>
-          </div>
-      </div>
+    <div class="service-card" onclick="selectService('repair')">
+      <img src="/PCClinic/images/pcrepairs.jpg" class="service-image" alt="Computer Repair">
+      <div class="service-title">Computer Repair</div>
+    </div>
 
-      <div class="service-card" onclick="selectService('virus')">
-          <div class="service-image" data-service="Security">🛡️</div>
-          <div class="service-content">
-              <h3 class="service-title">Virus Removal</h3>
-              <p class="service-description">Complete malware removal, system cleaning, and security setup. Protection against viruses, spyware, and ransomware.</p>
-              <button class="service-button">Learn More</button>
-          </div>
-      </div>
+    <div class="service-card" onclick="selectService('virus')">
+      <img src="/PCClinic/images/virusremoval.jpeg" class="service-image" alt="Virus Removal">
+      <div class="service-title">Virus Removal</div>
+    </div>
 
-      <div class="service-card" onclick="selectService('upgrade')">
-          <div class="service-image" data-service="Upgrade">⚡</div>
-          <div class="service-content">
-              <h3 class="service-title">Hardware Upgrades</h3>
-              <p class="service-description">RAM upgrades, SSD installations, graphics card replacements, and custom PC builds to boost your computer's performance.</p>
-              <button class="service-button">Learn More</button>
-          </div>
-      </div>
+    <div class="service-card" onclick="selectService('upgrade')">
+      <img src="/PCClinic/images/hardwareupgrade.jpg" class="service-image" alt="Hardware Upgrades">
+      <div class="service-title">Hardware Upgrades</div>
+    </div>
 
-      <div class="service-card" onclick="selectService('data')">
-          <div class="service-image" data-service="Recovery">💾</div>
-          <div class="service-content">
-              <h3 class="service-title">Data Recovery</h3>
-              <p class="service-description">Professional data recovery from failed hard drives, corrupted files, and accidentally deleted documents. Emergency service available.</p>
-              <button class="service-button">Learn More</button>
-          </div>
-      </div>
+    <div class="service-card" onclick="selectService('data')">
+      <img src="/PCClinic/images/datarecovery.jpg" class="service-image" alt="Data Recovery">
+      <div class="service-title">Data Recovery</div>
+    </div>
 
-      <div class="service-card" onclick="selectService('setup')">
-          <div class="service-image" data-service="Setup">⚙️</div>
-          <div class="service-content">
-              <h3 class="service-title">Setup & Installation</h3>
-              <p class="service-description">New computer setup, software installation, network configuration, and system optimization for home and business users.</p>
-              <button class="service-button">Learn More</button>
-          </div>
-      </div>
+    <div class="service-card" onclick="selectService('setup')">
+      <img src="/PCClinic/images/windows11setup.jpg" class="service-image" alt="Setup & Installation">
+      <div class="service-title">Setup & Installation</div>
+    </div>
 
-      <div class="service-card" onclick="selectService('support')">
-          <div class="service-image" data-service="Support">📞</div>
-          <div class="service-content">
-              <h3 class="service-title">Tech Support</h3>
-              <p class="service-description">Remote assistance, troubleshooting, and ongoing IT support. Training sessions and maintenance plans available.</p>
-              <button class="service-button">Learn More</button>
-          </div>
-      </div>
+    <div class="service-card" onclick="selectService('support')">
+      <img src="/PCClinic/images/techsupport.jpeg" class="service-image" alt="Tech Support">
+      <div class="service-title">Tech Support</div>
+    </div>
   </div>
+</div>
 
 <script src="app.js"></script>
 </body>

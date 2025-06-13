@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - PC Clinic</title>
+    <link rel="stylesheet" href="booking.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar">
+    <a href="landing.html">
+        <img src="/PCClinic/images/small-logo.png" class="img-left" alt="PC Clinic Logo">
+    </a>
+    <img src="/PCClinic/images/menu.png" class="img-right" alt="Menu Icon" onclick="toggleMenu()">
+    
+    <ul class="menu" id="nav-menu">
+        <li><a href="/PCClinic/landing.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/PCClinic/services.html">Services</a></li>
+        <li><a href="/PCClinic/booking.html">Contact</a></li>
+        <li class="theme-toggle">
+            <img src="/PCClinic/images/moon.png" id="theme-icon" alt="Theme Icon">
+        </li>
+    </ul>
+</nav>
+
+<h1 class="page-title">Appointment Booking</h1>
+
+<div class="container">
+    <form class="booking-form" action="mailto:pcclinic@bsdc.ac.uk" method="post" enctype="text/plain">
+        <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input type="text" name="name" class="form-input" placeholder="Name..." required>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Your Email</label>
+            <input type="email" name="email" class="form-input" placeholder="Email..." required>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Your Phone Number</label>
+            <input type="tel" name="phone" class="form-input" placeholder="Phone..." required>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Device you need us to repair</label>
+            <select name="device" class="form-select" required>
+                <option value="">Select Device Type</option>
+                <option value="Desktop PC (Windows)">Desktop PC (Windows)</option>
+                <option value="Laptop (Windows)">Laptop (Windows)</option>
+                <option value="Laptop (Mac)">Laptop (Mac)</option>
+                <option value="Desktop (Mac)">Desktop (Mac)</option>
+                <option value="Phone (Android)">Phone (Android)</option>
+                <option value="Phone (iPhone)">Phone (iPhone)</option>
+                <option value="Tablet">Tablet</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">What's wrong with it?</label>
+            <textarea name="issue" class="form-textarea" placeholder="Please describe the issue you're experiencing with your device..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</div>
+<script src="app.js"></script> 
+</body>
+</html>
