@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta c harset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="/DiceRoll/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Roller</h1>
+
+        <div class="dice-options">
+            <label for="dice-select">Choose a dice:</label>
+            <select id="dice-select">
+                <option value="6">6 Faces</option>
+                <option value="8">8 Faces</option>
+                <option value="12">12 Faces</option>
+            </select>
+        </div>
+
+        <div class="dice-display">
+            <!-- Dice box shows number -->
+            <div id="dice" class="dice">
+                <span id="dice-result">Roll!</span>
+            </div>
+        </div>
+
+        <button id="roll-button">Roll Dice</button>
+    </div>
+
+    <script src="/DiceRoll/app.js"></script>
+</body>
+</html>
